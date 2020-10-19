@@ -1,15 +1,7 @@
 package com.howtodoinjava.demo.service;
 
-import com.howtodoinjava.demo.config.RestTemplateResponseErrorHandler;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.web.client.RestTemplateBuilder;
-import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import org.springframework.web.client.RestTemplate;
 import reactor.core.publisher.Flux;
 
 import java.util.List;
@@ -73,18 +65,6 @@ public class QuoteService implements IQuoteService {
         }
     }
 
-    private RestTemplate restTemplate;
 
-    @Autowired
-    public QuoteService(RestTemplateBuilder restTemplateBuilder) {
-         this.restTemplate = restTemplateBuilder
-                .errorHandler(new RestTemplateResponseErrorHandler())
-                .build();
-    }
-
-    private String URL  = "https://www.zillow.com/webservice/GetDeepSearchResults.htm?zws-id=X1-ZWz17mw85rhbt7_af1tq&address=865%20Hall%20St%20NW&citystatezip=Atlanta/GA";
-    public ResponseEntity restBuilder(){
-        return  restTemplate.exchange("http://localhost:8080/test", HttpMethod.GET, new HttpEntity<>(new HttpHeaders()), String.class);
-    }
 
 }
