@@ -14,6 +14,7 @@ import java.util.stream.IntStream;
 @Service
 public class QuoteService implements IQuoteService {
 
+
     public Flux<String> streamData() {
         try {
             List<CompletableFuture<String>> completableFutures = new CopyOnWriteArrayList<>();
