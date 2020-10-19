@@ -1,0 +1,14 @@
+
+o
+java:S3776 "RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(äç 8²¥üÑÆ.
+c
+java:S2142+"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8âÅõÑÆ.
+b
+java:S2184*"FCast one of the operands of this multiplication operation to a "long".(£“òm8ÒåÿÑÆ.
+[
+java:S11556">Use isEmpty() to check whether the collection is empty or not.(ÂÏ¦é8âÅõÑÆ.
+c
+java:S2142D"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8âÅõÑÆ.
+E	java:S108+")Either remove or fill this block of code.(ä ¹€8—÷ôÑÆ.
+f
+java:S2147G"DCombine this catch with the one at line 68, which has the same body.(åşŒóùÿÿÿÿ8âÅõÑÆ.

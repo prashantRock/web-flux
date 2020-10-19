@@ -1,0 +1,11 @@
+
+7
+java:S3751$"Make this method "public".(ûİ­8ÔûÛÎÆ.
+e
+java:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(³îŒ—øÿÿÿÿ
+y
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "emps".(·«õ–8·¨ÃÆ.
+c
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ú—¨¸ÿÿÿÿÿ
+\
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(ÒÆ±W8ôÚâÀÆ.
